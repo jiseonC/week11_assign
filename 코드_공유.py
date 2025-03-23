@@ -33,8 +33,8 @@ from sklearn.metrics import accuracy_score, classification_report
 
 param_grid = {
     "criterion": ['gini', 'entropy']
-    , "max_depth": [2, 5]
-    , "min_samples_split": [2, 10]
+    , "max_depth": [2, 3, 4, 5]
+    , "min_samples_split": [2, 5, 10]
     , "min_samples_leaf": [1, 2, 4]
 }
 
